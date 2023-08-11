@@ -37,7 +37,7 @@ def uploaded_file(filename):
                     outline=(255, 0, 0), width=2)
 
     del draw
-    pil_image.save(os.path.join('./webapl/static/image', "mosaic.png"))
+    pil_image.save(os.path.join('./webapl/static/image', "face.png"))
     
     # 結果の画像を表示する
     return render_template("uploaded_file.html")
